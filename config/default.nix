@@ -20,6 +20,7 @@
     ./none-ls.nix
     ./neotree.nix
     ./oil.nix
+    ./nvim-surround.nix
     ./notify.nix
   ];
   config = {
