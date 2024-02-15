@@ -14,7 +14,7 @@
           enabled = true;
         };
         progress = {
-          enabled = false;
+          enabled = true;
           view = "mini";
         };
       };
