@@ -21,6 +21,7 @@
     ./neotree.nix
     ./oil.nix
     ./nvim-surround.nix
+    ./todo-comments.nix
     ./notify.nix
   ];
   config = {
