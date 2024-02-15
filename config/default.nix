@@ -17,6 +17,8 @@
     ./dap.nix
     ./illuminate.nix
     ./colorizer.nix
+    ./autosave.nix
+    ./none-ls.nix
   ];
   config = {
     extraConfigLua = ''
