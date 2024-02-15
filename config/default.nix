@@ -8,7 +8,6 @@
     ./noice.nix
     ./nvim-cmp.nix
     ./git-gutter.nix
-    # ./options.nix
     ./treesitter.nix
     ./indent-blankline.nix
     ./which-key.nix
