@@ -3,6 +3,22 @@
     noice = {
       enable = true;
 
+      notify = {
+        enabled = true;
+      };
+      messages = {
+        enabled = true; # Adds a padding-bottom to neovim statusline when set to false for some reason
+      };
+      lsp = {
+        message = {
+          enabled = true;
+        };
+        progress = {
+          enabled = false;
+          view = "mini";
+        };
+      };
+
       presets = {
         command_palette = true;
         inc_rename = true;
