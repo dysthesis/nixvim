@@ -3,6 +3,12 @@ name: Nix Flake Check
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
+  checks-detsys:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check Nix flake Nixpkgs inputs
+        uses: DeterminateSystems/flake-checker-action@main
   checks:
     name: Check expressions
     runs-on: ubuntu-latest
