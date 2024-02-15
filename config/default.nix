@@ -19,6 +19,7 @@
     ./autosave.nix
     ./none-ls.nix
     ./neotree.nix
+    ./oil.nix
     ./notify.nix
   ];
   config = {
