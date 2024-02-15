@@ -1,9 +1,8 @@
 {pkgs, ...}: {
   plugins = {
-
     lsp = {
       enable = true;
-			onAttach = ''
+      onAttach = ''
         do
           local lsp = require("lspconfig")
           local which_key = require("which-key")
@@ -77,7 +76,7 @@
     };
     lsp-lines.enable = true;
   };
-	extraConfigLuaPre = ''
+  extraConfigLuaPre = ''
     do
       local diagnostic_signs = { Error = "", Warn = "", Hint = "", Info = "" }
 

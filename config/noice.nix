@@ -57,9 +57,9 @@
       };
 
       routes = let
-      lua = {
-        mkRaw = value: {__raw = value;};
-      };
+        lua = {
+          mkRaw = value: {__raw = value;};
+        };
       in [
         # Hide no info
         {

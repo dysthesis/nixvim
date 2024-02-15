@@ -1,5 +1,5 @@
 {
-	colorschemes = {
+  colorschemes = {
     catppuccin = {
       enable = true;
       background = {

@@ -1,5 +1,5 @@
 {
-	plugins = {
+  plugins = {
     bufferline = {
       enable = false;
       mode = "buffers";

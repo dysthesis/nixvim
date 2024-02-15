@@ -13,11 +13,11 @@
     ./indent-blankline.nix
     ./which-key.nix
     ./telescope.nix
-		./autopairs.nix
-		./dap.nix
-		./illuminate.nix
-		./colorizer.nix
-	];
+    ./autopairs.nix
+    ./dap.nix
+    ./illuminate.nix
+    ./colorizer.nix
+  ];
   config = {
     extraConfigLua = ''
       do

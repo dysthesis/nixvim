@@ -3,7 +3,7 @@
     enable = true;
     nixGrammars = true;
   };
-	extraPlugins = [
+  extraPlugins = [
     (pkgs.vimUtils.buildVimPlugin {
       pname = "tree-sitter-playground";
       version = "unstable-2022-11-26";
@@ -15,7 +15,7 @@
       };
     })
   ];
-	keymaps = [
+  keymaps = [
     {
       mode = "n";
       key = "gH";

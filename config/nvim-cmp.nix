@@ -5,13 +5,13 @@
       experimental = {
         ghost_text = true;
       };
-			formatting = {
+      formatting = {
         fields = ["kind" "abbr" "menu"];
-        expandableIndicator = true;	
+        expandableIndicator = true;
       };
-			snippet.expand = "luasnip";
+      snippet.expand = "luasnip";
       mappingPresets = ["insert"];
-			window = {
+      window = {
         completion = {
           border = "rounded";
           winhighlight = "Normal:Normal,FloatBorder:FloatBorder,CursorLine:Visual,Search:None";
@@ -43,17 +43,17 @@
           groupIndex = 2;
           priority = 2;
         }
-      ];    
-			mapping = {
-				"<Return>" = {
-					modes = ["i" "s"];
-					action = "cmp.mapping.confirm({ select = true })";
-				};
-			};
+      ];
+      mapping = {
+        "<Return>" = {
+          modes = ["i" "s"];
+          action = "cmp.mapping.confirm({ select = true })";
+        };
+      };
     };
-		lspkind = {
-			enable = true;
-		};
+    lspkind = {
+      enable = true;
+    };
   };
   extraConfigLua = ''
       kind_icons = {
