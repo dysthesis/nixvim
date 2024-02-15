@@ -19,6 +19,7 @@
     ./colorizer.nix
     ./autosave.nix
     ./none-ls.nix
+    ./notify.nix
   ];
   config = {
     extraConfigLua = ''
