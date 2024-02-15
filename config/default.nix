@@ -18,6 +18,7 @@
     ./colorizer.nix
     ./autosave.nix
     ./none-ls.nix
+    ./neotree.nix
     ./notify.nix
   ];
   config = {
