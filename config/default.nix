@@ -23,6 +23,7 @@
     ./nvim-surround.nix
     ./todo-comments.nix
     ./notify.nix
+    ./obsidian.nix
   ];
   config = {
     extraConfigLua = ''
