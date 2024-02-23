@@ -24,7 +24,7 @@
           hlGroup = "ObsidianTilde";
         };
       };
-      attachments.imgFolder = "~/Documents/Episteme/Resources/Images";
     };
+    attachments.imgFolder = "~/Documents/Episteme/Resources/Images";
   };
 }
