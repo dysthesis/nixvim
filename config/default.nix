@@ -24,6 +24,7 @@
     ./todo-comments.nix
     ./notify.nix
     ./obsidian.nix
+    ./harpoon.nix
   ];
   config = {
     extraConfigLua = ''
