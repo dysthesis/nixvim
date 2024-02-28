@@ -1,6 +1,7 @@
 {
   # Import all your configuration modules here
   imports = [
+    ./alpha.nix
     ./bufferline.nix
     ./colourscheme.nix
     ./lsp.nix
