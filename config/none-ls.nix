@@ -5,7 +5,6 @@
     updateInInsert = true;
     sources = {
       code_actions = {
-        eslint_d.enable = true;
         gitsigns.enable = true;
         statix.enable = true;
       };
@@ -19,37 +18,15 @@
         flake8 = {
           enable = true;
         };
-        eslint_d = {
-          enable = true;
-        };
       };
       formatting = {
         alejandra = {
           enable = true;
         };
-        prettier = {
-          enable = true;
-          withArgs = ''
-            {
-              extra_args = { "--no-semi", "--single-quote" },
-            }
-          '';
-        };
         rustfmt = {
           enable = true;
         };
         stylua = {
-          enable = true;
-        };
-        black = {
-          enable = true;
-          withArgs = ''
-            {
-              extra_args = { "--fast" },
-            }
-          '';
-        };
-        jq = {
           enable = true;
         };
       };
