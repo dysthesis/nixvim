@@ -15,9 +15,6 @@
         luacheck = {
           enable = true;
         };
-        flake8 = {
-          enable = true;
-        };
       };
       formatting = {
         alejandra = {
