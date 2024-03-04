@@ -12,9 +12,6 @@
         statix = {
           enable = true;
         };
-        luacheck = {
-          enable = true;
-        };
       };
       formatting = {
         alejandra = {
